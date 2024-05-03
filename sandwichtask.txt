@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momo Magic</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <ion-icon name="grid-outline"></ion-icon>
+        </label>
+
+        <label class="logo">SANDWICH</label>
+
+        <ul>
+          <li><a href="#hero-section" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+         
+        </ul>
+      </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+      <div class="text">
+        <h1 class="primary">
+          Life is like a SANDWICH <br />
+          You have to fill it with the best <span>Ingredients</span>
+        </h1>
+
+        <p class="tertiary">
+          A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type.
+        </p>
+
+        <a href="#menu" class="btn">Explore Menu</a>
+      </div>
+      <div class="visual">
+        <img src="sandwich1.jpeg" alt="" />
+      </div>
+    </div>
+  
+   
+
+    <!-- About -->
+    <div class="section" id="about">
+      <div class="container flex">
+        <div class="visual">
+          <img src="sandwicheese.jpeg" alt="" />
+        </div>
+        <div class="text">
+          <div class="secondary"><b>About Our Yummy Sandwich</b></div>
+          <h2 class="primary">150+</h2>
+
+          <h3 class="tertiary">Our Delicious Food</h3>
+
+          <p>
+            A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type. The sandwich began as a portable, convenient finger food in the Western world, though over time it has become prevalent worldwide.
+          </p>
+
+          <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+      <div class="container">
+ 
+    <div class="footer">
+      <div class="container flex">
+        <div class="footer-about">
+          <h2>About</h2>
+          <p>
+           A sandwich is a food prepared by placing different kinds of foods between two pieces of bread. The pieces of bread in a sandwich are referred to as slices or sheets of bread. Between the slices of bread, people often add in vegetables, meat, or cheese.
+          </p>
+        </div>
+
+        <div class="footer-category">
+          <h2>Our Menu</h2>
+
+          <ul>
+            <li>Spicy Tuna</li>
+            <li>Veggie</li>
+            <li>Salami</li>
+            <li>Bacon & Cheese</li>
+            <li>Meatballs</li>
+          </ul>
+        </div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>We deliver to</li>
+            <li>Legal</li>
+            <li>Services</li>
+          </ul>
+        </div>
+
+        <div class="get-in-touch">
+          <h2>Get in touch</h2>
+          <ul>
+            <li>Account</li>
+            <li>Support Center</li>
+            <li>Ratings</li>
+            <li>Help & Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2024. All Rights Reserved.</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
